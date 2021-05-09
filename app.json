@@ -1,5 +1,5 @@
 {
-      "name": "Asuna Robot",
+      "name": "Nicky Robot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "Asuna"
       ],
     
-   "logo":    "https://telegra.ph/file/a303f7801d60dc1ea3017.jpg",  
-   "repository": "https://github.com/HuntingBots/AsunaRobot",
+   "logo":    "https://telegra.ph/file/d1de7a2b9c9eec7c7466c.jpg",  
+   "repository": "https://github.com/subhodip420/NICKY-ROBOT",
    "addons": [
           {
          "options": {
