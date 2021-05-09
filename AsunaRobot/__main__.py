@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🌺](https://telegra.ph/file/5c9c60b5360a9a31896a0.jpg) `My name is` *asuna*
+`Hello` [🖤](https://telegra.ph/file/d1de7a2b9c9eec7c7466c.jpg) `My name is` *NICKY*
 `I am powerful  group management bot.
 Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *📚Commands*   
@@ -83,7 +83,7 @@ You can find my list of available commands with! Hit` *📚Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD YONE TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
+            text="➕️ ADD YONE TO YOUR GROUP ➕️",url="t.me/nicky_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
@@ -91,7 +91,7 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"),
+            text="🤴 OWNER", url="https://telegram.dog/official_smile_of_your_face"),
     
     ],
     [
@@ -100,12 +100,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📕 Logis", url="https://t.me/AsunaLogUpdate"),
+            text="📕 Logis", url="https://t.me/nicky_log"),
           
 
 
 InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="👥 SUPPORT", url="https://telegram.dog/OFFICIAL_OLYMPUS"
         ),
 
     ],
@@ -118,11 +118,11 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna 🛠️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [NICKY 🛠️]("https://telegra.ph/file/d1de7a2b9c9eec7c7466c.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+ASUNA_IMG = "https://telegra.ph/file/d1de7a2b9c9eec7c7466c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @kittu5588 \
@@ -407,7 +407,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..💟 I'm *Asuna*
+            text=""" Hi..💟 I'm *Nicky*
                  \nHere is the [Source](https://github.com/HuntingBots/AsunaRobot/).""", 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
