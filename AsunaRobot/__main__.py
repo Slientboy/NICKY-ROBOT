@@ -111,7 +111,7 @@ InlineKeyboardButton(
     ],
     [
         InlineKeyboardButton(
-                    text="💟 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+                    text="💟 Source Code", url="https://github.com/subhodip420/NICKY-ROBOT"
         ),
     ],
 ]
@@ -372,7 +372,7 @@ def asuna_about_callback(update, context):
     query = update.callback_query
     if query.data == "Asuna_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *AsunaRobot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Nicky robot*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -380,8 +380,8 @@ def asuna_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/HuntingBots/AsunaRobot) 
-                 \n\nIf you have any question about AsunaRobot, let us know at .""",
+                 \nHere is the [💾Repository](https://github.com/subhodip420/NICKY-ROBOT) 
+                 \n\nIf you have any question about NickyRobot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -408,7 +408,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..💟 I'm *Nicky*
-                 \nHere is the [Source](https://github.com/HuntingBots/AsunaRobot/).""", 
+                 \nHere is the [Source](https://github.com/subhodip420/NICKY-ROBOT/).""", 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
